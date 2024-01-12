@@ -2,6 +2,7 @@
 import { Icon } from 'astro-icon';
 import { Container, Button } from '@littlesticks/odyssey-theme-components';
 import settings from '../../../config/settings.js';
+import { Image } from "@astrojs/image/components";
 import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 ---
 
@@ -31,9 +32,10 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 		<div class="hero-section__image">
 				<picture>
 					<img
-						src="/assets/images/home/classic-hero.jpg"
+						src="assets/20231224_202849.jpg"
+						width="auto"
+						height="auto"
 						alt="Astro Odyssey"
-						id="home-hero-image"
 					/>
 				</picture>
 		</div>
