@@ -1,12 +1,11 @@
 {
-  "name": "urara",
+  "name": "portfolio",
   "type": "module",
-  "version": "0.0.1",
-  "license": "WTFPL",
-  "repository": "importantimport/urara",
-  "homepage": "https://github.com/importantimport/urara",
-  "bugs": "https://github.com/importantimport/urara/issues",
-  "author": "藍+85CD",
+  "version": "1.4.3",
+  "repository": "rivercory/portfolio",
+  "homepage": "https://github.com/rivercory/portfolio",
+  "bugs": "https://github.com/rivercory/portfolio/issues",
+  "author": "rivercory",
   "scripts": {
     "clean": "node urara.js clean",
     "tsc": "tsc -p tsconfig.node.json",
