@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/rivercory/rivercory/font.css');
 
 :root {
 	--dark-0: #000;
@@ -48,15 +47,12 @@
 	--dark-0-60: rgba(0, 0, 0, 0.6);
 	--light-0-60: rgba(255, 255, 255, 0.6);
 
-	// fonts
-	--text-f: 'Inter';
-	--title-f: 'Inter';
-
 	overflow-y: scroll;
 }
 
 body {
 	margin: 0px;
+	font-family: 'SUIT-Regular';
 }
 
 * {
@@ -165,7 +161,6 @@ body {
 	--code-interpolation: var(--code-keyword);
 	--code-class-name: var(--secondary-text);
 
-	font-family: 'Space Mono', monospace;
 	font-size: 14px;
 
 	color: var(--tertiary-text);
