@@ -1,15 +1,46 @@
+<style scoped>
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.title1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.title2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fa {
+    color: rgb(212, 149, 97);
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+.fas {
+    color: rgb(212, 149, 97);
+    font-size: 40px;
+    /* font-weight: bold; */
+    transition: all 0.5s;
+}
+
+</style>
+
 <template>
-  <div class="p-st">
+
+<div class="p-st">
     <div class="container py-4">
-      <div
-        class="text-center"
-        data-aos="fade"
-        data-aos-once="true"
-        data-aos-duration="1000"
-      >
-        <span
-          class="title text-center"
-          >skills.</span
+        <div class="text-center" data-aos="fade" data-aos-once="true" data-aos-duration="1000">
+            <span class="title text-center">skills.</span
         >
       </div>
       <hr
@@ -38,59 +69,28 @@
           />
           <span class="title3">{{ skill.info.join(", ") }}</span>
         </div>
-      </div>
     </div>
-  </div>
+</div>
+</div>
+
 </template>
 
 <script>
+
 import info from "../info";
 
 export default {
-  name: "Skills",
-  props: {
-    nightMode: {
-      type: Boolean,
+    name: "Skills",
+    props: {
+        nightMode: {
+            type: Boolean,
+        },
     },
-  },
-  data() {
-    return {
-      skills: info.skills,
-    };
-  },
+    data() {
+        return {
+            skills: info.skills,
+        };
+    },
 };
+
 </script>
-
-<style scoped>
-.title {
-  font-size: 30px;
-  font-weight: 500;
-}
-.title1 {
-  font-size: 24px;
-  font-weight: 400;
-}
-
-.title2 {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.title3 {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.fa {
-  color: rgb(212, 149, 97);
-  font-size: 40px;
-  transition: all 0.5s;
-}
-
-.fas {
-  color: rgb(212, 149, 97);
-  font-size: 40px;
-  /* font-weight: bold; */
-  transition: all 0.5s;
-}
-</style>

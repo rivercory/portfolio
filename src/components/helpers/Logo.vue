@@ -4,7 +4,6 @@
       class="logo-title-name"
       >{{ name }}</span
     >
-    <span class="logo-title-dot pblue">{{ dot }}</span>
   </div>
 </template>
 
@@ -20,28 +19,16 @@ export default {
   },
   data() {
     return {
-      name: info.logo_name,
-      dot: ".",
+      name: info.logo_name
     };
   },
 };
 </script>
 
 <style scoped>
-.logo-div:hover .logo-title-name {
-  letter-spacing: 0px;
-  transition: 0.5s all;
-}
-
 .logo-title-name {
   font-size: 35px;
   font-weight: 500;
-  letter-spacing: 2px;
   transition: 0.5s all;
-}
-
-.logo-title-dot {
-  font-size: 30px;
-  font-weight: 700;
 }
 </style>

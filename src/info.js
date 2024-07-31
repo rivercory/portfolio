@@ -1,6 +1,6 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
+  name: "Hyeonho Kang",
+  logo_name: "rivercory",
   flat_picture: require("./assets/potrait.jpg"),
   config: {
     navbar: {
@@ -12,9 +12,7 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
     github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
-    resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+    angellist: "https://angel.co/u/hrishikesh-paul"
   },
   education: [
     {
@@ -31,26 +29,7 @@ let info = {
         "Algorithms",
         "Computer Vision",
         "Music Data Mining",
-        ,
         "OS"
-      ]
-    },
-    {
-      name: "Manipal Institute of Technology",
-      place: "India",
-      date: "Aug, 2015 - July, 2019",
-      degree: "Bachelors in Computer and Communication",
-      gpa: "8.0/10.0",
-      description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
-      skills: [
-        "AI",
-        "Neural Netwroks",
-        "Data Mining",
-        "Computer Vision",
-        "Pattern Recognition",
-        "HCI",
-        "Software Engineering"
       ]
     }
   ],
@@ -63,42 +42,6 @@ let info = {
       description:
         "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
       skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
-    },
-    {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
-      position: "Full Stack Web Developer",
-      description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
-    },
-    {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
-      description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
-    },
-    {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
-      description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
-    },
-    {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
-      description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
     }
   ],
   skills: [
@@ -118,44 +61,9 @@ let info = {
       icon: "fa fa-code"
     },
     {
-      title: "data frameworks",
-      info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
-      ],
-      icon: "fa fa-cubes"
-    },
-    {
       title: "web technologies",
       info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
-    },
-    {
-      title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
-      icon: "fa fa-database"
-    },
-    {
-      title: "operating systems & tools",
-      info: [
-        "MacOS",
-        "Ubuntu",
-        "Windows",
-        "Android",
-        "Agile",
-        "Scrum",
-        "JIRA",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
-      ],
-      icon: "fas fa-tools"
     },
     {
       title: "design",
@@ -425,40 +333,6 @@ let info = {
       visit: "",
       description:
         "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
-    }
-  ],
-  recommendations: [
-    {
-      title:
-        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Ushanas Shastri",
-      position: "CTO",
-      company: "Viteos Capital Market Services",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Anil Dukkipatty",
-      position: "CTO",
-      company: "Elemential Labs",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
-      author: "Chintan Shah",
-      position: "Director",
-      company: "Hridayam Soft Solution",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
-      author: "Mrinal Pai",
-      position: "Co-Founder & Director",
-      company: "Skylark Drones",
-      location: "Bangalore"
     }
   ]
 };
