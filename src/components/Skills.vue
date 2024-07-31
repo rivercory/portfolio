@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }" class="p-st">
+  <div class="p-st">
     <div class="container py-4">
       <div
         class="text-center"
@@ -9,13 +9,11 @@
       >
         <span
           class="title text-center"
-          :class="{ pgray: !nightMode, 'text-light': nightMode }"
           >skills.</span
         >
       </div>
       <hr
         width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
       <br />
       <div class="row">
@@ -46,7 +44,7 @@
 </template>
 
 <script>
-import info from "../../info";
+import info from "../info";
 
 export default {
   name: "Skills",

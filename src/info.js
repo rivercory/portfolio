@@ -1,11 +1,10 @@
 let info = {
   name: "Hrishikesh Paul",
   logo_name: "paul",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./assets/potrait.jpg"),
   config: {
-    use_cookies: true,
     navbar: {
-      blur: false
+      blur: true
     }
   },
   description:
@@ -169,16 +168,16 @@ let info = {
       name: "Sheet Recognizer",
       pictures: [
         {
-          img: require("./src/assets/portfolio/msr/one.png")
+          img: require("./assets/portfolio/msr/one.png")
         },
         {
-          img: require("./src/assets/portfolio/msr/two.png")
+          img: require("./assets/portfolio/msr/two.png")
         },
         {
-          img: require("./src/assets/portfolio/msr/three.png")
+          img: require("./assets/portfolio/msr/three.png")
         },
         {
-          img: require("./src/assets/portfolio/msr/four.png")
+          img: require("./assets/portfolio/msr/four.png")
         }
       ],
       technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
@@ -194,19 +193,19 @@ let info = {
       name: "NoQ Job Portal",
       pictures: [
         {
-          img: require("./src/assets/portfolio/noq/logo.png")
+          img: require("./assets/portfolio/noq/logo.png")
         },
         {
-          img: require("./src/assets/portfolio/noq/one.png")
+          img: require("./assets/portfolio/noq/one.png")
         },
         {
-          img: require("./src/assets/portfolio/noq/two.png")
+          img: require("./assets/portfolio/noq/two.png")
         },
         {
-          img: require("./src/assets/portfolio/noq/three.png")
+          img: require("./assets/portfolio/noq/three.png")
         },
         {
-          img: require("./src/assets/portfolio/noq/four.png")
+          img: require("./assets/portfolio/noq/four.png")
         }
       ],
       technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
@@ -221,10 +220,10 @@ let info = {
       name: "POST",
       pictures: [
         {
-          img: require("./src/assets/portfolio/post/one.png")
+          img: require("./assets/portfolio/post/one.png")
         },
         {
-          img: require("./src/assets/portfolio/post/two.png")
+          img: require("./assets/portfolio/post/two.png")
         }
       ],
       technologies: [
@@ -245,10 +244,10 @@ let info = {
       name: "Suicide Analyzer",
       pictures: [
         {
-          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
+          img: require("./assets/portfolio/suicide/suicide-analyzer.png")
         },
         {
-          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
+          img: require("./assets/portfolio/suicide/suicide2-original.png")
         }
       ],
       technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
@@ -263,16 +262,16 @@ let info = {
       name: "Sentiment Analyzer",
       pictures: [
         {
-          img: require("./src/assets/portfolio/smit/one.png")
+          img: require("./assets/portfolio/smit/one.png")
         },
         {
-          img: require("./src/assets/portfolio/smit/two.png")
+          img: require("./assets/portfolio/smit/two.png")
         },
         {
-          img: require("./src/assets/portfolio/smit/three.png")
+          img: require("./assets/portfolio/smit/three.png")
         },
         {
-          img: require("./src/assets/portfolio/smit/four.png")
+          img: require("./assets/portfolio/smit/four.png")
         }
       ],
       technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
@@ -287,13 +286,13 @@ let info = {
       name: "Clumpr",
       pictures: [
         {
-          img: require("./src/assets/portfolio/clumpr/logo.png")
+          img: require("./assets/portfolio/clumpr/logo.png")
         },
         {
-          img: require("./src/assets/portfolio/clumpr/one.png")
+          img: require("./assets/portfolio/clumpr/one.png")
         },
         {
-          img: require("./src/assets/portfolio/clumpr/two.png")
+          img: require("./assets/portfolio/clumpr/two.png")
         }
       ],
       technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
@@ -308,22 +307,22 @@ let info = {
       name: "Nutricare",
       pictures: [
         {
-          img: require("./src/assets/portfolio/nc/one.png")
+          img: require("./assets/portfolio/nc/one.png")
         },
         {
-          img: require("./src/assets/portfolio/nc/two.png")
+          img: require("./assets/portfolio/nc/two.png")
         },
         {
-          img: require("./src/assets/portfolio/nc/three.png")
+          img: require("./assets/portfolio/nc/three.png")
         },
         {
-          img: require("./src/assets/portfolio/nc/four.png")
+          img: require("./assets/portfolio/nc/four.png")
         },
         {
-          img: require("./src/assets/portfolio/nc/five.png")
+          img: require("./assets/portfolio/nc/five.png")
         },
         {
-          img: require("./src/assets/portfolio/nc/six.png")
+          img: require("./assets/portfolio/nc/six.png")
         }
       ],
       technologies: ["Node", "Angular", "Express", "MongDB", "Medical"],
@@ -341,19 +340,19 @@ let info = {
       title: "Guituna - Mockup Design",
       pictures: [
         {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
+          img: require("./assets/designs/coursera1/MoodBoard.png"),
           title: "MoodBoard"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
+          img: require("./assets/designs/coursera1/Mockups 1.png"),
           title: "Mockups 1"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
+          img: require("./assets/designs/coursera1/Mockups 2.png"),
           title: "Mockups 2"
         },
         {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
+          img: require("./assets/designs/coursera1/App Elements.png"),
           title: "App Elements"
         }
       ],
@@ -370,15 +369,15 @@ let info = {
       title: "Pantree - Mockup Design",
       pictures: [
         {
-          img: require("./src/assets/designs/pantree/MoodBoard.png"),
+          img: require("./assets/designs/pantree/MoodBoard.png"),
           title: "Moodboard"
         },
         {
-          img: require("./src/assets/designs/pantree/1.png"),
+          img: require("./assets/designs/pantree/1.png"),
           title: "Mockups 1"
         },
         {
-          img: require("./src/assets/designs/pantree/2.png"),
+          img: require("./assets/designs/pantree/2.png"),
           title: "Mockups 2"
         }
       ],
@@ -395,27 +394,27 @@ let info = {
       title: "Bunder - MVP Proposal",
       pictures: [
         {
-          img: require("./src/assets/designs/bunder/Moodboard.png"),
+          img: require("./assets/designs/bunder/Moodboard.png"),
           title: "Moodboard"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 1.png"),
+          img: require("./assets/designs/bunder/Mockup 1.png"),
           title: "Mockup 1"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 2.png"),
+          img: require("./assets/designs/bunder/Mockup 2.png"),
           title: "Mockup 2"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 3.png"),
+          img: require("./assets/designs/bunder/Mockup 3.png"),
           title: "Mockup 3"
         },
         {
-          img: require("./src/assets/designs/bunder/Market Research 1.png"),
+          img: require("./assets/designs/bunder/Market Research 1.png"),
           title: "Market Research 1"
         },
         {
-          img: require("./src/assets/designs/bunder/Market Research 2.png"),
+          img: require("./assets/designs/bunder/Market Research 2.png"),
           title: "Market Research 2"
         }
       ],

@@ -2,7 +2,6 @@
   <div class="logo-div">
     <span
       class="logo-title-name"
-      :class="{ pgray: !nightMode, 'text-light': nightMode }"
       >{{ name }}</span
     >
     <span class="logo-title-dot pblue">{{ dot }}</span>
@@ -10,7 +9,7 @@
 </template>
 
 <script>
-import info from "../../../info";
+import info from "../../info";
 
 export default {
   name: "Logo",

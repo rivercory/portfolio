@@ -1,5 +1,4 @@
-module.exports = {
-    chainWebpack: config => {
-        config.module.rules.delete('eslint');
-    }
-}
+const { defineConfig } = require("@vue/cli-service");
+module.exports = defineConfig({
+  transpileDependencies: true,
+});
